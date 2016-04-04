@@ -75,6 +75,7 @@
 		D12B26BF1CB2BAA000826C42 = {
 			isa = PBXGroup;
 			children = (
+				D12B26FB1CB2C41D00826C42 /* Source */,
 				D12B26CA1CB2BAA000826C42 /* HNCalendarView */,
 				D12B26DC1CB2BAA100826C42 /* HNCalendarViewTests */,
 				D12B26E71CB2BAA100826C42 /* HNCalendarViewUITests */,
@@ -120,6 +121,29 @@
 				D12B26EA1CB2BAA100826C42 /* Info.plist */,
 			);
 			path = HNCalendarViewUITests;
+			sourceTree = "<group>";
+		};
+		D12B26FB1CB2C41D00826C42 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D12B26FC1CB2C41D00826C42 /* Assets */,
+				D12B26FD1CB2C41D00826C42 /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D12B26FC1CB2C41D00826C42 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D12B26FD1CB2C41D00826C42 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
