@@ -13,6 +13,7 @@
 		D12B26D31CB2BAA100826C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12B26D11CB2BAA100826C42 /* Main.storyboard */; };
 		D12B26DE1CB2BAA100826C42 /* HNCalendarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26DD1CB2BAA100826C42 /* HNCalendarViewTests.swift */; };
 		D12B26E91CB2BAA100826C42 /* HNCalendarViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26E81CB2BAA100826C42 /* HNCalendarViewUITests.swift */; };
+		D1477CD61CB4096200E64DDE /* HNCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1477CD51CB4096200E64DDE /* HNCalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D12B26E41CB2BAA100826C42 /* HNCalendarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNCalendarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12B26E81CB2BAA100826C42 /* HNCalendarViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNCalendarViewUITests.swift; sourceTree = "<group>"; };
 		D12B26EA1CB2BAA100826C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1477CD51CB4096200E64DDE /* HNCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNCalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		D12B26FD1CB2C41D00826C42 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D1477CD51CB4096200E64DDE /* HNCalendarView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1477CD61CB4096200E64DDE /* HNCalendarView.swift in Sources */,
 				D12B26CE1CB2BAA000826C42 /* ViewController.swift in Sources */,
 				D12B26CC1CB2BAA000826C42 /* AppDelegate.swift in Sources */,
 			);
@@ -499,6 +503,7 @@
 				D12B26EF1CB2BAA100826C42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D12B26F01CB2BAA100826C42 /* Build configuration list for PBXNativeTarget "HNCalendarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +512,7 @@
 				D12B26F21CB2BAA100826C42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D12B26F31CB2BAA100826C42 /* Build configuration list for PBXNativeTarget "HNCalendarViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				D12B26F51CB2BAA100826C42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
