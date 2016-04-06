@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1268A401CB557850040BC4D /* HNCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1268A3F1CB557850040BC4D /* HNCalendarView.xib */; };
 		D12B26CC1CB2BAA000826C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26CB1CB2BAA000826C42 /* AppDelegate.swift */; };
 		D12B26CE1CB2BAA000826C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26CD1CB2BAA000826C42 /* ViewController.swift */; };
 		D12B26D01CB2BAA100826C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12B26CF1CB2BAA100826C42 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1268A3F1CB557850040BC4D /* HNCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNCalendarView.xib; sourceTree = "<group>"; };
 		D12B26C81CB2BAA000826C42 /* HNCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12B26CB1CB2BAA000826C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D12B26CD1CB2BAA000826C42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		D12B26FC1CB2C41D00826C42 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				D1268A3F1CB557850040BC4D /* HNCalendarView.xib */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				D12B26D01CB2BAA100826C42 /* Assets.xcassets in Resources */,
 				D12B26D31CB2BAA100826C42 /* Main.storyboard in Resources */,
+				D1268A401CB557850040BC4D /* HNCalendarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

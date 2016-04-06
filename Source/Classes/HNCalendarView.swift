@@ -8,14 +8,22 @@
 
 import Cocoa
 
-class HNCalendarView: NSViewController {
-
-    override func viewDidLoad() {
+public class HNCalendarView: NSViewController {
+    
+    public init() {
+        super.init(nibName: "HNCalendarView", bundle: NSBundle(forClass: HNCalendarView.self))!
+    }
+    
+    required public init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override public func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
     }
     
-    override func viewDidAppear() {
+    override public func viewDidAppear() {
         
     }
     
