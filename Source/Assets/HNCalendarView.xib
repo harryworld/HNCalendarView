@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="HNCalendarView" customModule="HNCalendarView" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="lgi-k7-XgO" id="OJq-c9-psC"/>
                 <outlet property="view" destination="c22-O7-iKe" id="Qve-NC-TMw"/>
             </connections>
         </customObject>
@@ -16,15 +17,42 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LTJ-cC-scN">
-                    <rect key="frame" x="222" y="128" width="37" height="17"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="ApG-iN-Dev">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
+                <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4n-gK-w1A">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+                    <clipView key="contentView" id="Ytx-n6-kVM">
+                        <rect key="frame" x="1" y="1" width="478" height="270"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView id="lgi-k7-XgO">
+                                <rect key="frame" x="0.0" y="0.0" width="478" height="270"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" id="2ua-MX-7yI">
+                                    <size key="itemSize" width="280" height="50"/>
+                                </collectionViewFlowLayout>
+                                <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="-2" id="f6r-ZM-oDl"/>
+                                    <outlet property="delegate" destination="-2" id="GxB-Li-LAf"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="B7K-VF-FYS">
+                        <rect key="frame" x="1" y="144" width="233" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="aoK-XJ-qRt">
+                        <rect key="frame" x="234" y="1" width="15" height="143"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
             </subviews>
+            <constraints>
+                <constraint firstItem="F4n-gK-w1A" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="5zO-NC-6Y6"/>
+                <constraint firstAttribute="bottom" secondItem="F4n-gK-w1A" secondAttribute="bottom" id="cbj-v3-JeM"/>
+                <constraint firstItem="F4n-gK-w1A" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="klV-E4-el4"/>
+                <constraint firstAttribute="trailing" secondItem="F4n-gK-w1A" secondAttribute="trailing" id="ym9-fh-XxP"/>
+            </constraints>
         </customView>
     </objects>
 </document>

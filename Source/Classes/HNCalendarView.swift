@@ -10,6 +10,8 @@ import Cocoa
 
 public class HNCalendarView: NSViewController {
     
+    @IBOutlet weak var collectionView: NSCollectionView!
+    
     public init() {
         super.init(nibName: "HNCalendarView", bundle: NSBundle(forClass: HNCalendarView.self))!
     }
@@ -26,5 +28,21 @@ public class HNCalendarView: NSViewController {
     override public func viewDidAppear() {
         
     }
+    
+}
+
+extension HNCalendarView: NSCollectionViewDataSource {
+    
+    public func collectionView(collectionView: NSCollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    public func collectionView(collectionView: NSCollectionView, itemForRepresentedObjectAtIndexPath indexPath: NSIndexPath) -> NSCollectionViewItem {
+        return collectionView.makeItemWithIdentifier("HNMonthItem", forIndexPath: indexPath)
+    }
+    
+}
+
+extension HNCalendarView: NSCollectionViewDelegate {
     
 }

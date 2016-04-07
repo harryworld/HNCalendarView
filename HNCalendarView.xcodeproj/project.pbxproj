@@ -15,6 +15,8 @@
 		D12B26DE1CB2BAA100826C42 /* HNCalendarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26DD1CB2BAA100826C42 /* HNCalendarViewTests.swift */; };
 		D12B26E91CB2BAA100826C42 /* HNCalendarViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26E81CB2BAA100826C42 /* HNCalendarViewUITests.swift */; };
 		D1477CD61CB4096200E64DDE /* HNCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1477CD51CB4096200E64DDE /* HNCalendarView.swift */; };
+		D1B5F7631CB6A7CD005D4C7F /* HNMonthItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */; };
+		D1B5F7661CB6A7F4005D4C7F /* HNMonthItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D12B26E81CB2BAA100826C42 /* HNCalendarViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNCalendarViewUITests.swift; sourceTree = "<group>"; };
 		D12B26EA1CB2BAA100826C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1477CD51CB4096200E64DDE /* HNCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNCalendarView.swift; sourceTree = "<group>"; };
+		D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNMonthItem.swift; path = Views/HNMonthItem.swift; sourceTree = "<group>"; };
+		D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNMonthItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				D1268A3F1CB557850040BC4D /* HNCalendarView.xib */,
+				D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -147,9 +152,18 @@
 		D12B26FD1CB2C41D00826C42 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D1B5F7641CB6A7D0005D4C7F /* Views */,
 				D1477CD51CB4096200E64DDE /* HNCalendarView.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		D1B5F7641CB6A7D0005D4C7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,7 @@
 				D12B26D01CB2BAA100826C42 /* Assets.xcassets in Resources */,
 				D12B26D31CB2BAA100826C42 /* Main.storyboard in Resources */,
 				D1268A401CB557850040BC4D /* HNCalendarView.xib in Resources */,
+				D1B5F7661CB6A7F4005D4C7F /* HNMonthItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +301,7 @@
 				D1477CD61CB4096200E64DDE /* HNCalendarView.swift in Sources */,
 				D12B26CE1CB2BAA000826C42 /* ViewController.swift in Sources */,
 				D12B26CC1CB2BAA000826C42 /* AppDelegate.swift in Sources */,
+				D1B5F7631CB6A7CD005D4C7F /* HNMonthItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

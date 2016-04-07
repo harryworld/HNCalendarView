@@ -10,10 +10,15 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    let calendarView = HNCalendarView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        addChildViewController(calendarView)
+        calendarView.view.frame = view.frame
+        view.addSubview(calendarView.view)
     }
 
     override var representedObject: AnyObject? {
