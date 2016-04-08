@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10E66CF1CB7FB8D0098E36B /* HNWeekItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E66CE1CB7FB8D0098E36B /* HNWeekItem.swift */; };
+		D10E66D11CB7FB9B0098E36B /* HNDateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E66D01CB7FB9B0098E36B /* HNDateItem.swift */; };
+		D10E66D31CB7FBAF0098E36B /* HNWeekItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10E66D21CB7FBAF0098E36B /* HNWeekItem.xib */; };
+		D10E66D51CB7FBBB0098E36B /* HNDateItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10E66D41CB7FBBB0098E36B /* HNDateItem.xib */; };
 		D1268A401CB557850040BC4D /* HNCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1268A3F1CB557850040BC4D /* HNCalendarView.xib */; };
 		D12B26CC1CB2BAA000826C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26CB1CB2BAA000826C42 /* AppDelegate.swift */; };
 		D12B26CE1CB2BAA000826C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26CD1CB2BAA000826C42 /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D10E66CE1CB7FB8D0098E36B /* HNWeekItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNWeekItem.swift; path = Views/HNWeekItem.swift; sourceTree = "<group>"; };
+		D10E66D01CB7FB9B0098E36B /* HNDateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNDateItem.swift; path = Views/HNDateItem.swift; sourceTree = "<group>"; };
+		D10E66D21CB7FBAF0098E36B /* HNWeekItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNWeekItem.xib; sourceTree = "<group>"; };
+		D10E66D41CB7FBBB0098E36B /* HNDateItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNDateItem.xib; sourceTree = "<group>"; };
 		D1268A3F1CB557850040BC4D /* HNCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNCalendarView.xib; sourceTree = "<group>"; };
 		D12B26C81CB2BAA000826C42 /* HNCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12B26CB1CB2BAA000826C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +153,8 @@
 			children = (
 				D1268A3F1CB557850040BC4D /* HNCalendarView.xib */,
 				D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */,
+				D10E66D21CB7FBAF0098E36B /* HNWeekItem.xib */,
+				D10E66D41CB7FBBB0098E36B /* HNDateItem.xib */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -162,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */,
+				D10E66CE1CB7FB8D0098E36B /* HNWeekItem.swift */,
+				D10E66D01CB7FB9B0098E36B /* HNDateItem.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -274,6 +286,8 @@
 				D12B26D31CB2BAA100826C42 /* Main.storyboard in Resources */,
 				D1268A401CB557850040BC4D /* HNCalendarView.xib in Resources */,
 				D1B5F7661CB6A7F4005D4C7F /* HNMonthItem.xib in Resources */,
+				D10E66D51CB7FBBB0098E36B /* HNDateItem.xib in Resources */,
+				D10E66D31CB7FBAF0098E36B /* HNWeekItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,10 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10E66D11CB7FB9B0098E36B /* HNDateItem.swift in Sources */,
 				D1477CD61CB4096200E64DDE /* HNCalendarView.swift in Sources */,
 				D12B26CE1CB2BAA000826C42 /* ViewController.swift in Sources */,
 				D12B26CC1CB2BAA000826C42 /* AppDelegate.swift in Sources */,
 				D1B5F7631CB6A7CD005D4C7F /* HNMonthItem.swift in Sources */,
+				D10E66CF1CB7FB8D0098E36B /* HNWeekItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

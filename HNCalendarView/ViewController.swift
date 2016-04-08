@@ -10,6 +10,7 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var containerView: NSView!
     let calendarView = HNCalendarView()
     
     override func viewDidLoad() {
@@ -17,7 +18,7 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
         addChildViewController(calendarView)
-        calendarView.view.frame = view.frame
+        calendarView.view.frame = containerView.frame
         view.addSubview(calendarView.view)
     }
 
