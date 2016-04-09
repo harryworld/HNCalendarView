@@ -55,14 +55,30 @@ extension HNCalendarView: NSCollectionViewDataSource {
     
     public func collectionView(collectionView: NSCollectionView, itemForRepresentedObjectAtIndexPath indexPath: NSIndexPath) -> NSCollectionViewItem {
         
+        var item: NSCollectionViewItem
+        
         switch Section(rawValue: indexPath.section)! {
         case .Month:
-            return collectionView.makeItemWithIdentifier("HNMonthItem", forIndexPath: indexPath)
+            item = collectionView.makeItemWithIdentifier("HNMonthItem", forIndexPath: indexPath)
+            
+            if let item = item as? HNMonthItem {
+                item.configure(NSDate())
+            }
         case .Week:
-            return collectionView.makeItemWithIdentifier("HNWeekItem", forIndexPath: indexPath)
+            item = collectionView.makeItemWithIdentifier("HNWeekItem", forIndexPath: indexPath)
+            
+            if let item = item as? HNWeekItem {
+                item.configure(HNCalendar.Week[indexPath.item])
+            }
         case .Date:
-            return collectionView.makeItemWithIdentifier("HNDateItem", forIndexPath: indexPath)
+            item = collectionView.makeItemWithIdentifier("HNDateItem", forIndexPath: indexPath)
+            
+            if let item = item as? HNDateItem {
+                item.configure(1)
+            }
         }
+        
+        return item
     }
     
 }

@@ -10,9 +10,15 @@ import Cocoa
 
 class HNMonthItem: NSCollectionViewItem {
 
+    @IBOutlet weak var monthField: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+    }
+    
+    func configure(month: NSDate) {
+        monthField.stringValue = "\(month)"
     }
     
 }

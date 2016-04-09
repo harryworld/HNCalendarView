@@ -10,9 +10,15 @@ import Cocoa
 
 class HNDateItem: NSCollectionViewItem {
 
+    @IBOutlet weak var dateField: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+    }
+    
+    func configure(day: Int) {
+        dateField.stringValue = "\(day)"
     }
     
 }

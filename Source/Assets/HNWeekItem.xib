@@ -29,6 +29,7 @@
         <customObject id="PcE-UQ-rmH" customClass="HNWeekItem" customModule="HNCalendarView" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="c22-O7-iKe" id="O8t-Yz-YgU"/>
+                <outlet property="weekField" destination="B9o-rN-vVP" id="gFL-69-4fa"/>
             </connections>
         </customObject>
     </objects>

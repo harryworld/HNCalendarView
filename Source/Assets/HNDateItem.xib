@@ -28,6 +28,7 @@
         </customView>
         <customObject id="TQ6-Ln-bSB" customClass="HNDateItem" customModule="HNCalendarView" customModuleProvider="target">
             <connections>
+                <outlet property="dateField" destination="lPz-Dc-L1E" id="sTV-lC-GDH"/>
                 <outlet property="view" destination="c22-O7-iKe" id="t10-Rx-cd6"/>
             </connections>
         </customObject>
