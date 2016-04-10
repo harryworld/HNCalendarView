@@ -17,8 +17,8 @@ class HNMonthItem: NSCollectionViewItem {
         // Do view setup here.
     }
     
-    func configure(month: NSDate) {
-        monthField.stringValue = "\(month)"
+    func configure(month: String, year: Int) {
+        monthField.stringValue = "\(month) \(year)"
     }
     
 }
