@@ -1,0 +1,10 @@
+PODS:
+  - SwiftDate (3.0.8)
+
+DEPENDENCIES:
+  - SwiftDate (~> 3)
+
+SPEC CHECKSUMS:
+  SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
+
+COCOAPODS: 0.39.0

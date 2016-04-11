@@ -14,28 +14,3 @@ class HNCalendar {
     static let Month:[String] = NSDateFormatter().shortMonthSymbols as [String]
     
 }
-
-extension NSDate {
-    private class func componentFlags() -> NSCalendarUnit {
-        return [NSCalendarUnit.Year ,
-                NSCalendarUnit.Month ,
-                NSCalendarUnit.Day,
-                NSCalendarUnit.WeekOfYear,
-                NSCalendarUnit.Hour ,
-                NSCalendarUnit.Minute ,
-                NSCalendarUnit.Second ,
-                NSCalendarUnit.Weekday ,
-                NSCalendarUnit.WeekdayOrdinal,
-                NSCalendarUnit.WeekOfYear]
-    }
-    
-    /// Return the NSDateComponents which represent current date
-    var components: NSDateComponents {
-        return  NSCalendar.currentCalendar().components(NSDate.componentFlags(), fromDate: self)
-    }
-    
-    func monthDays () -> Int {
-        return NSCalendar.currentCalendar().rangeOfUnit(NSCalendarUnit.Day, inUnit: NSCalendarUnit.Month, forDate: self).length
-    }
-    
-}

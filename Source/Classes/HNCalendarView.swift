@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import SwiftDate
 
 public class HNCalendarView: NSViewController {
     
@@ -64,7 +65,7 @@ extension HNCalendarView: NSCollectionViewDataSource {
             item = collectionView.makeItemWithIdentifier("HNMonthItem", forIndexPath: indexPath)
             
             if let item = item as? HNMonthItem {
-                item.configure(HNCalendar.Month[date.components.month - 1], year: date.components.year)
+                item.configure(HNCalendar.Month[date.month - 1], year: date.year)
             }
         case .Week:
             item = collectionView.makeItemWithIdentifier("HNWeekItem", forIndexPath: indexPath)
