@@ -74,14 +74,40 @@ extension HNCalendarView: NSCollectionViewDataSource {
                 item.configure(HNCalendar.Week[indexPath.item])
             }
         case .Date:
+            
+            let (day, inMonth) = dayInMonthForItem(indexPath.item)
+            
             item = collectionView.makeItemWithIdentifier("HNDateItem", forIndexPath: indexPath)
             
             if let item = item as? HNDateItem {
-                item.configure(1)
+                item.configure(day)
             }
         }
         
         return item
+    }
+    
+    // MARK: - Private
+    
+    private func dayInMonthForItem(item: Int) -> (Int, Bool) {
+        
+        var day: Int
+        var inMonth = false
+        
+        if item < date.startOf(.Month).weekday - 1 {
+            day = dayForItem(item) + 1.months.fromDate(date).monthDays
+        } else if item - date.startOf(.Month).weekday < date.monthDays - 1 {
+            day = dayForItem(item)
+            inMonth = true
+        } else {
+            day = dayForItem(item) - date.monthDays
+        }
+        
+        return (day, inMonth)
+    }
+    
+    private func dayForItem(item: Int) -> Int {
+        return item - date.startOf(.Month).weekday + 2
     }
     
 }
