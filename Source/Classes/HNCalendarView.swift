@@ -80,7 +80,7 @@ extension HNCalendarView: NSCollectionViewDataSource {
             item = collectionView.makeItemWithIdentifier("HNDateItem", forIndexPath: indexPath)
             
             if let item = item as? HNDateItem {
-                item.configure(day)
+                item.configure(day, inCurrentMonth: inMonth)
             }
         }
         

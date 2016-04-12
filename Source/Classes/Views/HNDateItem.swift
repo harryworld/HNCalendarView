@@ -12,13 +12,21 @@ class HNDateItem: NSCollectionViewItem {
 
     @IBOutlet weak var dateField: NSTextField!
     
+    var inCurrentMonth: Bool = true {
+        didSet {
+            dateField.alphaValue = inCurrentMonth ? 1.0 : 0.3
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
     }
     
-    func configure(day: Int) {
+    func configure(day: Int, inCurrentMonth: Bool) {
         dateField.stringValue = "\(day)"
+        
+        self.inCurrentMonth = inCurrentMonth
     }
     
 }
