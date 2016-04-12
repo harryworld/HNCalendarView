@@ -1,1369 +1,658 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00E37064BF6DB676B8C76856</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2375E6DD82C012CCF0202480</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1974C2FF49388D979486FA0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HNCalendarView.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HNCalendarView/Pods-HNCalendarView.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2375E6DD82C012CCF0202480</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_HNCalendarView.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>48240AB7482D5D66B5AFDE0F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2375E6DD82C012CCF0202480</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>741A4265601A386B1A2BABF9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1974C2FF49388D979486FA0F</string>
-				<string>7DEEC5074387276D4263FC15</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DEEC5074387276D4263FC15</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HNCalendarView.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HNCalendarView/Pods-HNCalendarView.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>83C702192D59255B42219B45</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HNCalendarView/Pods-HNCalendarView-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BCB75509C80E16CED503AC83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HNCalendarView/Pods-HNCalendarView-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D10E66CE1CB7FB8D0098E36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>HNWeekItem.swift</string>
-			<key>path</key>
-			<string>Views/HNWeekItem.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D10E66CF1CB7FB8D0098E36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D10E66CE1CB7FB8D0098E36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D10E66D01CB7FB9B0098E36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>HNDateItem.swift</string>
-			<key>path</key>
-			<string>Views/HNDateItem.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D10E66D11CB7FB9B0098E36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D10E66D01CB7FB9B0098E36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D10E66D21CB7FBAF0098E36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>HNWeekItem.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D10E66D31CB7FBAF0098E36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D10E66D21CB7FBAF0098E36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D10E66D41CB7FBBB0098E36B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>HNDateItem.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D10E66D51CB7FBBB0098E36B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D10E66D41CB7FBBB0098E36B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1268A3F1CB557850040BC4D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>HNCalendarView.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1268A401CB557850040BC4D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D1268A3F1CB557850040BC4D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D12B26BF1CB2BAA000826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D12B26FB1CB2C41D00826C42</string>
-				<string>D12B26CA1CB2BAA000826C42</string>
-				<string>D12B26DC1CB2BAA100826C42</string>
-				<string>D12B26E71CB2BAA100826C42</string>
-				<string>D12B26C91CB2BAA000826C42</string>
-				<string>741A4265601A386B1A2BABF9</string>
-				<string>00E37064BF6DB676B8C76856</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26C01CB2BAA000826C42</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>STAY REAL LIMITED</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>D12B26C71CB2BAA000826C42</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>D12B26D81CB2BAA100826C42</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>D12B26C71CB2BAA000826C42</string>
-					</dict>
-					<key>D12B26E31CB2BAA100826C42</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>D12B26C71CB2BAA000826C42</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>D12B26C31CB2BAA000826C42</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>D12B26BF1CB2BAA000826C42</string>
-			<key>productRefGroup</key>
-			<string>D12B26C91CB2BAA000826C42</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D12B26C71CB2BAA000826C42</string>
-				<string>D12B26D81CB2BAA100826C42</string>
-				<string>D12B26E31CB2BAA100826C42</string>
-			</array>
-		</dict>
-		<key>D12B26C31CB2BAA000826C42</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D12B26EB1CB2BAA100826C42</string>
-				<string>D12B26EC1CB2BAA100826C42</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D12B26C41CB2BAA000826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D10E66D11CB7FB9B0098E36B</string>
-				<string>D1477CD61CB4096200E64DDE</string>
-				<string>D12B26CE1CB2BAA000826C42</string>
-				<string>D12B26CC1CB2BAA000826C42</string>
-				<string>D1B5F7631CB6A7CD005D4C7F</string>
-				<string>D10E66CF1CB7FB8D0098E36B</string>
-				<string>D16B77E01CB952BD002764D1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26C51CB2BAA000826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>48240AB7482D5D66B5AFDE0F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26C61CB2BAA000826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D12B26D01CB2BAA100826C42</string>
-				<string>D12B26D31CB2BAA100826C42</string>
-				<string>D1268A401CB557850040BC4D</string>
-				<string>D1B5F7661CB6A7F4005D4C7F</string>
-				<string>D10E66D51CB7FBBB0098E36B</string>
-				<string>D10E66D31CB7FBAF0098E36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26C71CB2BAA000826C42</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D12B26ED1CB2BAA100826C42</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F66A75B41B624FE66AA041C4</string>
-				<string>D12B26C41CB2BAA000826C42</string>
-				<string>D12B26C51CB2BAA000826C42</string>
-				<string>D12B26C61CB2BAA000826C42</string>
-				<string>BCB75509C80E16CED503AC83</string>
-				<string>83C702192D59255B42219B45</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HNCalendarView</string>
-			<key>productName</key>
-			<string>HNCalendarView</string>
-			<key>productReference</key>
-			<string>D12B26C81CB2BAA000826C42</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>D12B26C81CB2BAA000826C42</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HNCalendarView.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D12B26C91CB2BAA000826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D12B26C81CB2BAA000826C42</string>
-				<string>D12B26D91CB2BAA100826C42</string>
-				<string>D12B26E41CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26CA1CB2BAA000826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D12B26CB1CB2BAA000826C42</string>
-				<string>D12B26CD1CB2BAA000826C42</string>
-				<string>D12B26CF1CB2BAA100826C42</string>
-				<string>D12B26D11CB2BAA100826C42</string>
-				<string>D12B26D41CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HNCalendarView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26CB1CB2BAA000826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26CC1CB2BAA000826C42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12B26CB1CB2BAA000826C42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D12B26CD1CB2BAA000826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26CE1CB2BAA000826C42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12B26CD1CB2BAA000826C42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D12B26CF1CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26D01CB2BAA100826C42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12B26CF1CB2BAA100826C42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D12B26D11CB2BAA100826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D12B26D21CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26D21CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26D31CB2BAA100826C42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12B26D11CB2BAA100826C42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D12B26D41CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26D51CB2BAA100826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D12B26DE1CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26D61CB2BAA100826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26D71CB2BAA100826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26D81CB2BAA100826C42</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D12B26F01CB2BAA100826C42</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D12B26D51CB2BAA100826C42</string>
-				<string>D12B26D61CB2BAA100826C42</string>
-				<string>D12B26D71CB2BAA100826C42</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D12B26DB1CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HNCalendarViewTests</string>
-			<key>productName</key>
-			<string>HNCalendarViewTests</string>
-			<key>productReference</key>
-			<string>D12B26D91CB2BAA100826C42</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>D12B26D91CB2BAA100826C42</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HNCalendarViewTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D12B26DA1CB2BAA100826C42</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D12B26C01CB2BAA000826C42</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D12B26C71CB2BAA000826C42</string>
-			<key>remoteInfo</key>
-			<string>HNCalendarView</string>
-		</dict>
-		<key>D12B26DB1CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D12B26C71CB2BAA000826C42</string>
-			<key>targetProxy</key>
-			<string>D12B26DA1CB2BAA100826C42</string>
-		</dict>
-		<key>D12B26DC1CB2BAA100826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D12B26DD1CB2BAA100826C42</string>
-				<string>D12B26DF1CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HNCalendarViewTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26DD1CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HNCalendarViewTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26DE1CB2BAA100826C42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12B26DD1CB2BAA100826C42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D12B26DF1CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26E01CB2BAA100826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D12B26E91CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26E11CB2BAA100826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26E21CB2BAA100826C42</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12B26E31CB2BAA100826C42</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D12B26F31CB2BAA100826C42</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D12B26E01CB2BAA100826C42</string>
-				<string>D12B26E11CB2BAA100826C42</string>
-				<string>D12B26E21CB2BAA100826C42</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D12B26E61CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HNCalendarViewUITests</string>
-			<key>productName</key>
-			<string>HNCalendarViewUITests</string>
-			<key>productReference</key>
-			<string>D12B26E41CB2BAA100826C42</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>D12B26E41CB2BAA100826C42</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HNCalendarViewUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D12B26E51CB2BAA100826C42</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D12B26C01CB2BAA000826C42</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D12B26C71CB2BAA000826C42</string>
-			<key>remoteInfo</key>
-			<string>HNCalendarView</string>
-		</dict>
-		<key>D12B26E61CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D12B26C71CB2BAA000826C42</string>
-			<key>targetProxy</key>
-			<string>D12B26E51CB2BAA100826C42</string>
-		</dict>
-		<key>D12B26E71CB2BAA100826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D12B26E81CB2BAA100826C42</string>
-				<string>D12B26EA1CB2BAA100826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HNCalendarViewUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26E81CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HNCalendarViewUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26E91CB2BAA100826C42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12B26E81CB2BAA100826C42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D12B26EA1CB2BAA100826C42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26EB1CB2BAA100826C42</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>-</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D12B26EC1CB2BAA100826C42</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>-</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.11</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D12B26ED1CB2BAA100826C42</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D12B26EE1CB2BAA100826C42</string>
-				<string>D12B26EF1CB2BAA100826C42</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D12B26EE1CB2BAA100826C42</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1974C2FF49388D979486FA0F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HNCalendarView/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.stayrealhk.HNCalendarView</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D12B26EF1CB2BAA100826C42</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7DEEC5074387276D4263FC15</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HNCalendarView/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.stayrealhk.HNCalendarView</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D12B26F01CB2BAA100826C42</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D12B26F11CB2BAA100826C42</string>
-				<string>D12B26F21CB2BAA100826C42</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D12B26F11CB2BAA100826C42</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HNCalendarViewTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.stayrealhk.HNCalendarViewTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/HNCalendarView.app/Contents/MacOS/HNCalendarView</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D12B26F21CB2BAA100826C42</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HNCalendarViewTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.stayrealhk.HNCalendarViewTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/HNCalendarView.app/Contents/MacOS/HNCalendarView</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D12B26F31CB2BAA100826C42</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D12B26F41CB2BAA100826C42</string>
-				<string>D12B26F51CB2BAA100826C42</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D12B26F41CB2BAA100826C42</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HNCalendarViewUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.stayrealhk.HNCalendarViewUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>HNCalendarView</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D12B26F51CB2BAA100826C42</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HNCalendarViewUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.stayrealhk.HNCalendarViewUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>HNCalendarView</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D12B26FB1CB2C41D00826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D12B26FC1CB2C41D00826C42</string>
-				<string>D12B26FD1CB2C41D00826C42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Source</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26FC1CB2C41D00826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D1268A3F1CB557850040BC4D</string>
-				<string>D1B5F7651CB6A7F4005D4C7F</string>
-				<string>D10E66D21CB7FBAF0098E36B</string>
-				<string>D10E66D41CB7FBBB0098E36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Assets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12B26FD1CB2C41D00826C42</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D16B77DE1CB952A6002764D1</string>
-				<string>D1B5F7641CB6A7D0005D4C7F</string>
-				<string>D1477CD51CB4096200E64DDE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1477CD51CB4096200E64DDE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HNCalendarView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1477CD61CB4096200E64DDE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D1477CD51CB4096200E64DDE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D16B77DE1CB952A6002764D1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D16B77DF1CB952BD002764D1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Helpers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D16B77DF1CB952BD002764D1</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>HNCalendar.swift</string>
-			<key>path</key>
-			<string>Helpers/HNCalendar.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D16B77E01CB952BD002764D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D16B77DF1CB952BD002764D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1B5F7621CB6A7CD005D4C7F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>HNMonthItem.swift</string>
-			<key>path</key>
-			<string>Views/HNMonthItem.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1B5F7631CB6A7CD005D4C7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D1B5F7621CB6A7CD005D4C7F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1B5F7641CB6A7D0005D4C7F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D1B5F7621CB6A7CD005D4C7F</string>
-				<string>D10E66CE1CB7FB8D0098E36B</string>
-				<string>D10E66D01CB7FB9B0098E36B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Views</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1B5F7651CB6A7F4005D4C7F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>HNMonthItem.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1B5F7661CB6A7F4005D4C7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D1B5F7651CB6A7F4005D4C7F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F66A75B41B624FE66AA041C4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D12B26C01CB2BAA000826C42</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48240AB7482D5D66B5AFDE0F /* Pods_HNCalendarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2375E6DD82C012CCF0202480 /* Pods_HNCalendarView.framework */; };
+		D10E66CF1CB7FB8D0098E36B /* HNWeekItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E66CE1CB7FB8D0098E36B /* HNWeekItem.swift */; };
+		D10E66D11CB7FB9B0098E36B /* HNDateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E66D01CB7FB9B0098E36B /* HNDateItem.swift */; };
+		D10E66D31CB7FBAF0098E36B /* HNWeekItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10E66D21CB7FBAF0098E36B /* HNWeekItem.xib */; };
+		D10E66D51CB7FBBB0098E36B /* HNDateItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10E66D41CB7FBBB0098E36B /* HNDateItem.xib */; };
+		D1268A401CB557850040BC4D /* HNCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1268A3F1CB557850040BC4D /* HNCalendarView.xib */; };
+		D12B26CC1CB2BAA000826C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26CB1CB2BAA000826C42 /* AppDelegate.swift */; };
+		D12B26CE1CB2BAA000826C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26CD1CB2BAA000826C42 /* ViewController.swift */; };
+		D12B26D01CB2BAA100826C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12B26CF1CB2BAA100826C42 /* Assets.xcassets */; };
+		D12B26D31CB2BAA100826C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12B26D11CB2BAA100826C42 /* Main.storyboard */; };
+		D12B26DE1CB2BAA100826C42 /* HNCalendarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26DD1CB2BAA100826C42 /* HNCalendarViewTests.swift */; };
+		D12B26E91CB2BAA100826C42 /* HNCalendarViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B26E81CB2BAA100826C42 /* HNCalendarViewUITests.swift */; };
+		D135C1C21CBD400B0099103F /* HNDateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D135C1C11CBD400A0099103F /* HNDateItemView.swift */; };
+		D1477CD61CB4096200E64DDE /* HNCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1477CD51CB4096200E64DDE /* HNCalendarView.swift */; };
+		D16B77E01CB952BD002764D1 /* HNCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B77DF1CB952BD002764D1 /* HNCalendar.swift */; };
+		D1B5F7631CB6A7CD005D4C7F /* HNMonthItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */; };
+		D1B5F7661CB6A7F4005D4C7F /* HNMonthItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12B26DA1CB2BAA100826C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12B26C01CB2BAA000826C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12B26C71CB2BAA000826C42;
+			remoteInfo = HNCalendarView;
+		};
+		D12B26E51CB2BAA100826C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12B26C01CB2BAA000826C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12B26C71CB2BAA000826C42;
+			remoteInfo = HNCalendarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1974C2FF49388D979486FA0F /* Pods-HNCalendarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNCalendarView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HNCalendarView/Pods-HNCalendarView.debug.xcconfig"; sourceTree = "<group>"; };
+		2375E6DD82C012CCF0202480 /* Pods_HNCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEEC5074387276D4263FC15 /* Pods-HNCalendarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNCalendarView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HNCalendarView/Pods-HNCalendarView.release.xcconfig"; sourceTree = "<group>"; };
+		D10E66CE1CB7FB8D0098E36B /* HNWeekItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNWeekItem.swift; path = Views/HNWeekItem.swift; sourceTree = "<group>"; };
+		D10E66D01CB7FB9B0098E36B /* HNDateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNDateItem.swift; path = Views/HNDateItem.swift; sourceTree = "<group>"; };
+		D10E66D21CB7FBAF0098E36B /* HNWeekItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNWeekItem.xib; sourceTree = "<group>"; };
+		D10E66D41CB7FBBB0098E36B /* HNDateItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNDateItem.xib; sourceTree = "<group>"; };
+		D1268A3F1CB557850040BC4D /* HNCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNCalendarView.xib; sourceTree = "<group>"; };
+		D12B26C81CB2BAA000826C42 /* HNCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12B26CB1CB2BAA000826C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D12B26CD1CB2BAA000826C42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D12B26CF1CB2BAA100826C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12B26D21CB2BAA100826C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D12B26D41CB2BAA100826C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12B26D91CB2BAA100826C42 /* HNCalendarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNCalendarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12B26DD1CB2BAA100826C42 /* HNCalendarViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNCalendarViewTests.swift; sourceTree = "<group>"; };
+		D12B26DF1CB2BAA100826C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12B26E41CB2BAA100826C42 /* HNCalendarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNCalendarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12B26E81CB2BAA100826C42 /* HNCalendarViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNCalendarViewUITests.swift; sourceTree = "<group>"; };
+		D12B26EA1CB2BAA100826C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D135C1C11CBD400A0099103F /* HNDateItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNDateItemView.swift; path = Views/HNDateItemView.swift; sourceTree = "<group>"; };
+		D1477CD51CB4096200E64DDE /* HNCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNCalendarView.swift; sourceTree = "<group>"; };
+		D16B77DF1CB952BD002764D1 /* HNCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNCalendar.swift; path = Helpers/HNCalendar.swift; sourceTree = "<group>"; };
+		D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNMonthItem.swift; path = Views/HNMonthItem.swift; sourceTree = "<group>"; };
+		D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNMonthItem.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12B26C51CB2BAA000826C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48240AB7482D5D66B5AFDE0F /* Pods_HNCalendarView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B26D61CB2BAA100826C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B26E11CB2BAA100826C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E37064BF6DB676B8C76856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2375E6DD82C012CCF0202480 /* Pods_HNCalendarView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741A4265601A386B1A2BABF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1974C2FF49388D979486FA0F /* Pods-HNCalendarView.debug.xcconfig */,
+				7DEEC5074387276D4263FC15 /* Pods-HNCalendarView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D12B26BF1CB2BAA000826C42 = {
+			isa = PBXGroup;
+			children = (
+				D12B26FB1CB2C41D00826C42 /* Source */,
+				D12B26CA1CB2BAA000826C42 /* HNCalendarView */,
+				D12B26DC1CB2BAA100826C42 /* HNCalendarViewTests */,
+				D12B26E71CB2BAA100826C42 /* HNCalendarViewUITests */,
+				D12B26C91CB2BAA000826C42 /* Products */,
+				741A4265601A386B1A2BABF9 /* Pods */,
+				00E37064BF6DB676B8C76856 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D12B26C91CB2BAA000826C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12B26C81CB2BAA000826C42 /* HNCalendarView.app */,
+				D12B26D91CB2BAA100826C42 /* HNCalendarViewTests.xctest */,
+				D12B26E41CB2BAA100826C42 /* HNCalendarViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12B26CA1CB2BAA000826C42 /* HNCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				D12B26CB1CB2BAA000826C42 /* AppDelegate.swift */,
+				D12B26CD1CB2BAA000826C42 /* ViewController.swift */,
+				D12B26CF1CB2BAA100826C42 /* Assets.xcassets */,
+				D12B26D11CB2BAA100826C42 /* Main.storyboard */,
+				D12B26D41CB2BAA100826C42 /* Info.plist */,
+			);
+			path = HNCalendarView;
+			sourceTree = "<group>";
+		};
+		D12B26DC1CB2BAA100826C42 /* HNCalendarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D12B26DD1CB2BAA100826C42 /* HNCalendarViewTests.swift */,
+				D12B26DF1CB2BAA100826C42 /* Info.plist */,
+			);
+			path = HNCalendarViewTests;
+			sourceTree = "<group>";
+		};
+		D12B26E71CB2BAA100826C42 /* HNCalendarViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D12B26E81CB2BAA100826C42 /* HNCalendarViewUITests.swift */,
+				D12B26EA1CB2BAA100826C42 /* Info.plist */,
+			);
+			path = HNCalendarViewUITests;
+			sourceTree = "<group>";
+		};
+		D12B26FB1CB2C41D00826C42 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D12B26FC1CB2C41D00826C42 /* Assets */,
+				D12B26FD1CB2C41D00826C42 /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D12B26FC1CB2C41D00826C42 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D1268A3F1CB557850040BC4D /* HNCalendarView.xib */,
+				D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */,
+				D10E66D21CB7FBAF0098E36B /* HNWeekItem.xib */,
+				D10E66D41CB7FBBB0098E36B /* HNDateItem.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D12B26FD1CB2C41D00826C42 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D16B77DE1CB952A6002764D1 /* Helpers */,
+				D1B5F7641CB6A7D0005D4C7F /* Views */,
+				D1477CD51CB4096200E64DDE /* HNCalendarView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D16B77DE1CB952A6002764D1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D16B77DF1CB952BD002764D1 /* HNCalendar.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D1B5F7641CB6A7D0005D4C7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */,
+				D10E66CE1CB7FB8D0098E36B /* HNWeekItem.swift */,
+				D10E66D01CB7FB9B0098E36B /* HNDateItem.swift */,
+				D135C1C11CBD400A0099103F /* HNDateItemView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12B26C71CB2BAA000826C42 /* HNCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12B26ED1CB2BAA100826C42 /* Build configuration list for PBXNativeTarget "HNCalendarView" */;
+			buildPhases = (
+				F66A75B41B624FE66AA041C4 /* Check Pods Manifest.lock */,
+				D12B26C41CB2BAA000826C42 /* Sources */,
+				D12B26C51CB2BAA000826C42 /* Frameworks */,
+				D12B26C61CB2BAA000826C42 /* Resources */,
+				BCB75509C80E16CED503AC83 /* Embed Pods Frameworks */,
+				83C702192D59255B42219B45 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HNCalendarView;
+			productName = HNCalendarView;
+			productReference = D12B26C81CB2BAA000826C42 /* HNCalendarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12B26D81CB2BAA100826C42 /* HNCalendarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12B26F01CB2BAA100826C42 /* Build configuration list for PBXNativeTarget "HNCalendarViewTests" */;
+			buildPhases = (
+				D12B26D51CB2BAA100826C42 /* Sources */,
+				D12B26D61CB2BAA100826C42 /* Frameworks */,
+				D12B26D71CB2BAA100826C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12B26DB1CB2BAA100826C42 /* PBXTargetDependency */,
+			);
+			name = HNCalendarViewTests;
+			productName = HNCalendarViewTests;
+			productReference = D12B26D91CB2BAA100826C42 /* HNCalendarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12B26E31CB2BAA100826C42 /* HNCalendarViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12B26F31CB2BAA100826C42 /* Build configuration list for PBXNativeTarget "HNCalendarViewUITests" */;
+			buildPhases = (
+				D12B26E01CB2BAA100826C42 /* Sources */,
+				D12B26E11CB2BAA100826C42 /* Frameworks */,
+				D12B26E21CB2BAA100826C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12B26E61CB2BAA100826C42 /* PBXTargetDependency */,
+			);
+			name = HNCalendarViewUITests;
+			productName = HNCalendarViewUITests;
+			productReference = D12B26E41CB2BAA100826C42 /* HNCalendarViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12B26C01CB2BAA000826C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "STAY REAL LIMITED";
+				TargetAttributes = {
+					D12B26C71CB2BAA000826C42 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D12B26D81CB2BAA100826C42 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D12B26C71CB2BAA000826C42;
+					};
+					D12B26E31CB2BAA100826C42 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D12B26C71CB2BAA000826C42;
+					};
+				};
+			};
+			buildConfigurationList = D12B26C31CB2BAA000826C42 /* Build configuration list for PBXProject "HNCalendarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12B26BF1CB2BAA000826C42;
+			productRefGroup = D12B26C91CB2BAA000826C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12B26C71CB2BAA000826C42 /* HNCalendarView */,
+				D12B26D81CB2BAA100826C42 /* HNCalendarViewTests */,
+				D12B26E31CB2BAA100826C42 /* HNCalendarViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12B26C61CB2BAA000826C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12B26D01CB2BAA100826C42 /* Assets.xcassets in Resources */,
+				D12B26D31CB2BAA100826C42 /* Main.storyboard in Resources */,
+				D1268A401CB557850040BC4D /* HNCalendarView.xib in Resources */,
+				D1B5F7661CB6A7F4005D4C7F /* HNMonthItem.xib in Resources */,
+				D10E66D51CB7FBBB0098E36B /* HNDateItem.xib in Resources */,
+				D10E66D31CB7FBAF0098E36B /* HNWeekItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B26D71CB2BAA100826C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B26E21CB2BAA100826C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83C702192D59255B42219B45 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNCalendarView/Pods-HNCalendarView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB75509C80E16CED503AC83 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNCalendarView/Pods-HNCalendarView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66A75B41B624FE66AA041C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12B26C41CB2BAA000826C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10E66D11CB7FB9B0098E36B /* HNDateItem.swift in Sources */,
+				D1477CD61CB4096200E64DDE /* HNCalendarView.swift in Sources */,
+				D12B26CE1CB2BAA000826C42 /* ViewController.swift in Sources */,
+				D12B26CC1CB2BAA000826C42 /* AppDelegate.swift in Sources */,
+				D1B5F7631CB6A7CD005D4C7F /* HNMonthItem.swift in Sources */,
+				D135C1C21CBD400B0099103F /* HNDateItemView.swift in Sources */,
+				D10E66CF1CB7FB8D0098E36B /* HNWeekItem.swift in Sources */,
+				D16B77E01CB952BD002764D1 /* HNCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B26D51CB2BAA100826C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12B26DE1CB2BAA100826C42 /* HNCalendarViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B26E01CB2BAA100826C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12B26E91CB2BAA100826C42 /* HNCalendarViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12B26DB1CB2BAA100826C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12B26C71CB2BAA000826C42 /* HNCalendarView */;
+			targetProxy = D12B26DA1CB2BAA100826C42 /* PBXContainerItemProxy */;
+		};
+		D12B26E61CB2BAA100826C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12B26C71CB2BAA000826C42 /* HNCalendarView */;
+			targetProxy = D12B26E51CB2BAA100826C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D12B26D11CB2BAA100826C42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12B26D21CB2BAA100826C42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12B26EB1CB2BAA100826C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12B26EC1CB2BAA100826C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D12B26EE1CB2BAA100826C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1974C2FF49388D979486FA0F /* Pods-HNCalendarView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HNCalendarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D12B26EF1CB2BAA100826C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEEC5074387276D4263FC15 /* Pods-HNCalendarView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HNCalendarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D12B26F11CB2BAA100826C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HNCalendarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNCalendarView.app/Contents/MacOS/HNCalendarView";
+			};
+			name = Debug;
+		};
+		D12B26F21CB2BAA100826C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HNCalendarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNCalendarView.app/Contents/MacOS/HNCalendarView";
+			};
+			name = Release;
+		};
+		D12B26F41CB2BAA100826C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HNCalendarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HNCalendarView;
+			};
+			name = Debug;
+		};
+		D12B26F51CB2BAA100826C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HNCalendarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HNCalendarView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12B26C31CB2BAA000826C42 /* Build configuration list for PBXProject "HNCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12B26EB1CB2BAA100826C42 /* Debug */,
+				D12B26EC1CB2BAA100826C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12B26ED1CB2BAA100826C42 /* Build configuration list for PBXNativeTarget "HNCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12B26EE1CB2BAA100826C42 /* Debug */,
+				D12B26EF1CB2BAA100826C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12B26F01CB2BAA100826C42 /* Build configuration list for PBXNativeTarget "HNCalendarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12B26F11CB2BAA100826C42 /* Debug */,
+				D12B26F21CB2BAA100826C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12B26F31CB2BAA100826C42 /* Build configuration list for PBXNativeTarget "HNCalendarViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12B26F41CB2BAA100826C42 /* Debug */,
+				D12B26F51CB2BAA100826C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12B26C01CB2BAA000826C42 /* Project object */;
+}
