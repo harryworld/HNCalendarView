@@ -23,7 +23,7 @@
                         <rect key="frame" x="1" y="1" width="278" height="318"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView id="lgi-k7-XgO">
+                            <collectionView selectable="YES" allowsEmptySelection="NO" id="lgi-k7-XgO">
                                 <rect key="frame" x="0.0" y="0.0" width="278" height="318"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" id="2ua-MX-7yI">

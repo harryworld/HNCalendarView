@@ -9,6 +9,12 @@
 import Cocoa
 
 class HNDateItem: NSCollectionViewItem {
+    
+    override var selected: Bool {
+        didSet {
+            updateStyles()
+        }
+    }
 
     @IBOutlet weak var dateField: NSTextField!
     
@@ -27,6 +33,12 @@ class HNDateItem: NSCollectionViewItem {
         dateField.stringValue = "\(day)"
         
         self.inCurrentMonth = inCurrentMonth
+    }
+    
+    private func updateStyles() {
+        if let view = view as? HNDateItemView {
+            view.circleLayer.hidden = !selected
+        }
     }
     
 }

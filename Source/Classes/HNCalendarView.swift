@@ -11,7 +11,14 @@ import SwiftDate
 
 public class HNCalendarView: NSViewController {
     
+    // Today
     let date = NSDate()
+    // Selected Date
+    var selectedDate: NSDate = NSDate() {
+        didSet {
+            selectSelectedDateItem()
+        }
+    }
     
     @IBOutlet weak var collectionView: NSCollectionView!
     
@@ -34,6 +41,21 @@ public class HNCalendarView: NSViewController {
     
     override public func viewDidAppear() {
         
+    }
+    
+    private func selectSelectedDateItem() {
+        if let selectedIndexPath = indexPathForDate(selectedDate) {
+            collectionView?.selectItemsAtIndexPaths([selectedIndexPath], scrollPosition: .None)
+        }
+    }
+    
+    func indexPathForDate(selectedDate: NSDate) -> NSIndexPath? {
+        
+        if date.month == selectedDate.month {
+            let item = date.startOf(.Month).weekday + selectedDate.day - 2
+            return NSIndexPath(forItem: item, inSection: Section.Date.rawValue)
+        }
+        return nil
     }
     
 }

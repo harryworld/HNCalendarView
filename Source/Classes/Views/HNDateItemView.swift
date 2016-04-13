@@ -11,6 +11,7 @@ import Cocoa
 @IBDesignable class HNDateItemView: NSView {
     
     var circleLayer: CALayer!
+    var dotLayer: CALayer!
 
     override init(frame frameRect: NSRect) {
         super.init(frame: frameRect)
@@ -33,11 +34,19 @@ import Cocoa
         circleLayer.masksToBounds = false
         circleLayer.hidden = true
         layer?.addSublayer(circleLayer)
+        
+        dotLayer = CALayer()
+        dotLayer.frame = NSMakeRect(bounds.width / 2 - 2, 4, 4, 4)
+        dotLayer.cornerRadius = 2
+        dotLayer.backgroundColor = NSColor.blueColor().CGColor
+        dotLayer.hidden = true
+        layer?.addSublayer(dotLayer)
     }
     
     override func prepareForInterfaceBuilder() {
         layer?.backgroundColor = NSColor.darkGrayColor().CGColor
         circleLayer.hidden = false
+        dotLayer.hidden = false
     }
     
 }
