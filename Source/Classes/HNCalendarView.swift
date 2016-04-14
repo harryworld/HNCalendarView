@@ -20,6 +20,8 @@ public class HNCalendarView: NSViewController {
         }
     }
     
+    var counts: [Int]?
+    
     @IBOutlet weak var collectionView: NSCollectionView!
     
     enum Section: Int {
@@ -103,6 +105,12 @@ extension HNCalendarView: NSCollectionViewDataSource {
             
             if let item = item as? HNDateItem {
                 item.configure(day, inCurrentMonth: inMonth)
+                
+                if let counts = counts where inMonth {
+                    item.count = counts[day - 1]
+                } else {
+                    item.count = 0
+                }
             }
         }
         

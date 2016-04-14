@@ -17,6 +17,8 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        calendarView.counts = generateCounts()
+        
         addChildViewController(calendarView)
         calendarView.view.frame = containerView.frame
         view.addSubview(calendarView.view)
@@ -28,6 +30,16 @@ class ViewController: NSViewController {
         didSet {
         // Update the view, if already loaded.
         }
+    }
+    
+    func generateCounts() -> [Int] {
+        
+        var counts = [Int]()
+        for i in 0..<NSDate().monthDays {
+            counts.append(i % 2)
+        }
+        
+        return counts
     }
 
 
