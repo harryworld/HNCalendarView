@@ -14,13 +14,13 @@ public class HNCalendarView: NSViewController {
     // Today
     let date = NSDate()
     // Selected Date
-    var selectedDate: NSDate = NSDate() {
+    public var selectedDate: NSDate = NSDate() {
         didSet {
             selectSelectedDateItem()
         }
     }
     
-    var counts: [Int]?
+    public var counts: [Int]?
     
     @IBOutlet weak var collectionView: NSCollectionView!
     
