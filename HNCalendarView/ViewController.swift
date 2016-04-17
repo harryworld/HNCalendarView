@@ -17,13 +17,27 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        calendarView.counts = generateCounts()
         
+        // Step 1 - Override Style
+        var preferences = HNCalendarView.Preferences()
+        preferences.calendar.backgroundColor = NSColor.grayColor()
+        preferences.calendar.textColor = NSColor.whiteColor()
+        
+        preferences.date.circleBackgroundColor = NSColor.yellowColor()
+        preferences.date.dotColor = NSColor.greenColor()
+        
+        HNCalendarView.globalPreferences = preferences
+        
+        // Step 2 - Add calendar to view hierarchy
         addChildViewController(calendarView)
         calendarView.view.frame = containerView.frame
         view.addSubview(calendarView.view)
         
+        // Step 3 - Set properties
+        // Set selected date
         calendarView.selectedDate = NSDate()
+        // Showing dots
+        calendarView.counts = generateCounts()
     }
 
     override var representedObject: AnyObject? {

@@ -19,6 +19,7 @@ class HNMonthItem: NSCollectionViewItem {
     
     func configure(month: String, year: Int) {
         monthField.stringValue = "\(month) \(year)"
+        monthField.textColor = HNCalendarView.globalPreferences.calendar.textColor
     }
     
 }

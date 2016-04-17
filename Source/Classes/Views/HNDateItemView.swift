@@ -24,13 +24,15 @@ import Cocoa
     }
     
     func commonInit() {
+        let preferences = HNCalendarView.globalPreferences
+        
         wantsLayer = true
         
         circleLayer = CALayer()
         let dimension = floor(min(bounds.width, bounds.height) - 4)
         circleLayer.frame = NSMakeRect(2, 2, dimension, dimension)
         circleLayer.cornerRadius = dimension / 2
-        circleLayer.backgroundColor = NSColor.redColor().CGColor
+        circleLayer.backgroundColor = preferences.date.circleBackgroundColor.CGColor
         circleLayer.masksToBounds = false
         circleLayer.hidden = true
         layer?.addSublayer(circleLayer)
@@ -38,7 +40,7 @@ import Cocoa
         dotLayer = CALayer()
         dotLayer.frame = NSMakeRect(bounds.width / 2 - 2, 4, 4, 4)
         dotLayer.cornerRadius = 2
-        dotLayer.backgroundColor = NSColor.blueColor().CGColor
+        dotLayer.backgroundColor = preferences.date.dotColor.CGColor
         dotLayer.hidden = true
         layer?.addSublayer(dotLayer)
     }

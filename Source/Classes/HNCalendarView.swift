@@ -11,6 +11,27 @@ import SwiftDate
 
 public class HNCalendarView: NSViewController {
     
+    public struct Preferences {
+        
+        public struct Calendar {
+            public var backgroundColor = NSColor.clearColor()
+            public var textColor = NSColor.blackColor()
+        }
+        
+        public struct Date {
+            public var circleBackgroundColor = NSColor.redColor()
+            public var dotColor = NSColor.blueColor()
+        }
+        
+        public var calendar = Calendar()
+        public var date = Date()
+        
+        public init() {}
+        
+    }
+    
+    public static var globalPreferences = Preferences()
+    
     // Today
     let date = NSDate()
     // Selected Date
@@ -39,6 +60,8 @@ public class HNCalendarView: NSViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        
+        collectionView.backgroundColors = [HNCalendarView.globalPreferences.calendar.backgroundColor]
     }
     
     override public func viewDidAppear() {
