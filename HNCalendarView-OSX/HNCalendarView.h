@@ -9,10 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 //! Project version number for HNCalendarView-OSX.
-FOUNDATION_EXPORT double HNCalendarView_OSXVersionNumber;
+FOUNDATION_EXPORT double HNCalendarViewVersionNumber;
 
 //! Project version string for HNCalendarView-OSX.
-FOUNDATION_EXPORT const unsigned char HNCalendarView_OSXVersionString[];
+FOUNDATION_EXPORT const unsigned char HNCalendarViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HNCalendarView_OSX/PublicHeader.h>
 
