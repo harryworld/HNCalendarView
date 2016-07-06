@@ -24,6 +24,16 @@
 		D14DCAC71D2C0257002060AB /* HNCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = D14DCAC61D2C0257002060AB /* HNCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D14DCACB1D2C0257002060AB /* HNCalendarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14DCAC41D2C0257002060AB /* HNCalendarView.framework */; };
 		D14DCACC1D2C0257002060AB /* HNCalendarView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D14DCAC41D2C0257002060AB /* HNCalendarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D14DCAD11D2CD396002060AB /* HNCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B77DF1CB952BD002764D1 /* HNCalendar.swift */; };
+		D14DCAD21D2CD396002060AB /* HNMonthItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */; };
+		D14DCAD31D2CD396002060AB /* HNWeekItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E66CE1CB7FB8D0098E36B /* HNWeekItem.swift */; };
+		D14DCAD41D2CD396002060AB /* HNDateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E66D01CB7FB9B0098E36B /* HNDateItem.swift */; };
+		D14DCAD51D2CD396002060AB /* HNDateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D135C1C11CBD400A0099103F /* HNDateItemView.swift */; };
+		D14DCAD61D2CD396002060AB /* HNCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1477CD51CB4096200E64DDE /* HNCalendarView.swift */; };
+		D14DCAD71D2CD3BB002060AB /* HNCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1268A3F1CB557850040BC4D /* HNCalendarView.xib */; };
+		D14DCAD81D2CD3BB002060AB /* HNMonthItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */; };
+		D14DCAD91D2CD3BB002060AB /* HNWeekItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10E66D21CB7FBAF0098E36B /* HNWeekItem.xib */; };
+		D14DCADA1D2CD3BB002060AB /* HNDateItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10E66D41CB7FBBB0098E36B /* HNDateItem.xib */; };
 		D16B77E01CB952BD002764D1 /* HNCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B77DF1CB952BD002764D1 /* HNCalendar.swift */; };
 		D1B5F7631CB6A7CD005D4C7F /* HNMonthItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */; };
 		D1B5F7661CB6A7F4005D4C7F /* HNMonthItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */; };
@@ -431,6 +441,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14DCAD71D2CD3BB002060AB /* HNCalendarView.xib in Resources */,
+				D14DCAD81D2CD3BB002060AB /* HNMonthItem.xib in Resources */,
+				D14DCAD91D2CD3BB002060AB /* HNWeekItem.xib in Resources */,
+				D14DCADA1D2CD3BB002060AB /* HNDateItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +534,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14DCAD11D2CD396002060AB /* HNCalendar.swift in Sources */,
+				D14DCAD21D2CD396002060AB /* HNMonthItem.swift in Sources */,
+				D14DCAD31D2CD396002060AB /* HNWeekItem.swift in Sources */,
+				D14DCAD41D2CD396002060AB /* HNDateItem.swift in Sources */,
+				D14DCAD51D2CD396002060AB /* HNDateItemView.swift in Sources */,
+				D14DCAD61D2CD396002060AB /* HNCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +663,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = HNCalendarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarView;
@@ -656,6 +677,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = HNCalendarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarView;
@@ -801,6 +823,7 @@
 				D14DCACE1D2C0257002060AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
