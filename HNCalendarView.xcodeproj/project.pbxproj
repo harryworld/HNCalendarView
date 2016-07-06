@@ -34,6 +34,7 @@
 		D14DCAD81D2CD3BB002060AB /* HNMonthItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */; };
 		D14DCAD91D2CD3BB002060AB /* HNWeekItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10E66D21CB7FBAF0098E36B /* HNWeekItem.xib */; };
 		D14DCADA1D2CD3BB002060AB /* HNDateItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10E66D41CB7FBBB0098E36B /* HNDateItem.xib */; };
+		D14DCADE1D2D103E002060AB /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14DCADD1D2D103E002060AB /* SwiftDate.framework */; };
 		D16B77E01CB952BD002764D1 /* HNCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B77DF1CB952BD002764D1 /* HNCalendar.swift */; };
 		D1B5F7631CB6A7CD005D4C7F /* HNMonthItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */; };
 		D1B5F7661CB6A7F4005D4C7F /* HNMonthItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */; };
@@ -103,6 +104,7 @@
 		D14DCAC41D2C0257002060AB /* HNCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HNCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14DCAC61D2C0257002060AB /* HNCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNCalendarView.h; sourceTree = "<group>"; };
 		D14DCAC81D2C0257002060AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14DCADD1D2D103E002060AB /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/HNCalendarView-amyjviwkojtbkfhbpijxgmsyhwcu/Build/Products/Debug/SwiftDate.framework"; sourceTree = "<group>"; };
 		D16B77DF1CB952BD002764D1 /* HNCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNCalendar.swift; path = Helpers/HNCalendar.swift; sourceTree = "<group>"; };
 		D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNMonthItem.swift; path = Views/HNMonthItem.swift; sourceTree = "<group>"; };
 		D1B5F7651CB6A7F4005D4C7F /* HNMonthItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNMonthItem.xib; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14DCADE1D2D103E002060AB /* SwiftDate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +148,7 @@
 		00E37064BF6DB676B8C76856 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D14DCADD1D2D103E002060AB /* SwiftDate.framework */,
 				2375E6DD82C012CCF0202480 /* Pods_HNCalendarView.framework */,
 			);
 			name = Frameworks;
