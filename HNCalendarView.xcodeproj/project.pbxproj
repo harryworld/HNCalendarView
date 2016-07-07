@@ -22,8 +22,8 @@
 		D135C1C21CBD400B0099103F /* HNDateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D135C1C11CBD400A0099103F /* HNDateItemView.swift */; };
 		D1477CD61CB4096200E64DDE /* HNCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1477CD51CB4096200E64DDE /* HNCalendarView.swift */; };
 		D14DCAF21D2EA78C002060AB /* HNCalendarView-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = D14DCAF11D2EA78C002060AB /* HNCalendarView-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D14DCAF61D2EA78C002060AB /* HNCalendarView-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14DCAEF1D2EA78C002060AB /* HNCalendarView-OSX.framework */; };
-		D14DCAF71D2EA78C002060AB /* HNCalendarView-OSX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D14DCAEF1D2EA78C002060AB /* HNCalendarView-OSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D14DCAF61D2EA78C002060AB /* HNCalendarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14DCAEF1D2EA78C002060AB /* HNCalendarView.framework */; };
+		D14DCAF71D2EA78C002060AB /* HNCalendarView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D14DCAEF1D2EA78C002060AB /* HNCalendarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D14DCAFC1D2EA7F8002060AB /* HNCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B77DF1CB952BD002764D1 /* HNCalendar.swift */; };
 		D14DCAFD1D2EA7F8002060AB /* HNMonthItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5F7621CB6A7CD005D4C7F /* HNMonthItem.swift */; };
 		D14DCAFE1D2EA7F8002060AB /* HNWeekItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E66CE1CB7FB8D0098E36B /* HNWeekItem.swift */; };
@@ -70,7 +70,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D14DCAF71D2EA78C002060AB /* HNCalendarView-OSX.framework in Embed Frameworks */,
+				D14DCAF71D2EA78C002060AB /* HNCalendarView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,7 +100,7 @@
 		D12B26EA1CB2BAA100826C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D135C1C11CBD400A0099103F /* HNDateItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNDateItemView.swift; path = Views/HNDateItemView.swift; sourceTree = "<group>"; };
 		D1477CD51CB4096200E64DDE /* HNCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNCalendarView.swift; sourceTree = "<group>"; };
-		D14DCAEF1D2EA78C002060AB /* HNCalendarView-OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "HNCalendarView-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14DCAEF1D2EA78C002060AB /* HNCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HNCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14DCAF11D2EA78C002060AB /* HNCalendarView-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HNCalendarView-OSX.h"; sourceTree = "<group>"; };
 		D14DCAF31D2EA78C002060AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D16B77DF1CB952BD002764D1 /* HNCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNCalendar.swift; path = Helpers/HNCalendar.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D14DCAF61D2EA78C002060AB /* HNCalendarView-OSX.framework in Frameworks */,
+				D14DCAF61D2EA78C002060AB /* HNCalendarView.framework in Frameworks */,
 				48240AB7482D5D66B5AFDE0F /* Pods_HNCalendarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,7 +179,7 @@
 				D12B26C81CB2BAA000826C42 /* HNCalendarView.app */,
 				D12B26D91CB2BAA100826C42 /* HNCalendarViewTests.xctest */,
 				D12B26E41CB2BAA100826C42 /* HNCalendarViewUITests.xctest */,
-				D14DCAEF1D2EA78C002060AB /* HNCalendarView-OSX.framework */,
+				D14DCAEF1D2EA78C002060AB /* HNCalendarView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 			);
 			name = "HNCalendarView-OSX";
 			productName = "HNCalendarView-OSX";
-			productReference = D14DCAEF1D2EA78C002060AB /* HNCalendarView-OSX.framework */;
+			productReference = D14DCAEF1D2EA78C002060AB /* HNCalendarView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -749,7 +749,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HNCalendarView;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -770,7 +770,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stayrealhk.HNCalendarView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HNCalendarView;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -823,6 +823,7 @@
 				D14DCAF91D2EA78C002060AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
