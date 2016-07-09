@@ -14,8 +14,13 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "D14DCAC31D2C0257002060AB"
                BuildableName = "HNCalendarView.framework"
+=======
+               BlueprintIdentifier = "D14DCAEE1D2EA78C002060AB"
+               BuildableName = "HNCalendarView-OSX.framework"
+>>>>>>> carthage
                BlueprintName = "HNCalendarView-OSX"
                ReferencedContainer = "container:HNCalendarView.xcodeproj">
             </BuildableReference>
@@ -45,8 +50,13 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "D14DCAC31D2C0257002060AB"
             BuildableName = "HNCalendarView.framework"
+=======
+            BlueprintIdentifier = "D14DCAEE1D2EA78C002060AB"
+            BuildableName = "HNCalendarView-OSX.framework"
+>>>>>>> carthage
             BlueprintName = "HNCalendarView-OSX"
             ReferencedContainer = "container:HNCalendarView.xcodeproj">
          </BuildableReference>
@@ -63,8 +73,13 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "D14DCAC31D2C0257002060AB"
             BuildableName = "HNCalendarView.framework"
+=======
+            BlueprintIdentifier = "D14DCAEE1D2EA78C002060AB"
+            BuildableName = "HNCalendarView-OSX.framework"
+>>>>>>> carthage
             BlueprintName = "HNCalendarView-OSX"
             ReferencedContainer = "container:HNCalendarView.xcodeproj">
          </BuildableReference>
